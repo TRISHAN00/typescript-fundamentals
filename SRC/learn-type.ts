@@ -44,3 +44,12 @@ let index1: number = (<String>str).indexOf("a");
 
 let names: string[] = ["Trishan", "Rishan"];
 let ages: Array<number> = [12, 14, 16];
+
+// Multi type  array
+let positions: (string | number)[] = [1, "first", "last", 100];
+
+// Multi Dimentional Array
+let multiDimArr: number[][] = [
+  [1, 2, 3, 4, 5],
+  [8, 9, 10],
+];
